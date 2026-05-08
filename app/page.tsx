@@ -17,7 +17,7 @@ const partners = [
 ];
 
 const newsItems = [
-  { id: 1, title: "Actualización NTCSE: Nuevos límites de inyección", date: "12 May, 2026", cat: "Regulación" },
+  { id: 1, title: "Actualización NTCSE: Nuevos límites de inyección", date: "05 May, 2026", cat: "Regulación" },
   { id: 2, title: "Lanzamiento firmware ION9000 v3.2", date: "28 Abr, 2026", cat: "Producto" },
   { id: 3, title: "Implementación PME 2025 en minera del sur", date: "15 Abr, 2026", cat: "Casos" },
 ];
@@ -99,7 +99,7 @@ export default function Home() {
                     ))}
                   </ul>
                   <div className="mt-6 pt-4 border-t border-slate-800">
-                    <Link href="#" className="flex items-center text-xs font-mono text-slate-400 hover:text-[#3dcd58] transition-colors">
+                    <Link href="/actualidad" className="flex items-center text-xs font-mono text-slate-400 hover:text-[#3dcd58] transition-colors">
                       VER_TODOS_LOS_REGISTROS <ArrowUpRight className="ml-2 h-3 w-3" />
                     </Link>
                   </div>

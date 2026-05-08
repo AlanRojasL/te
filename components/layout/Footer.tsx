@@ -52,10 +52,12 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-6 w-6 text-green-500 shrink-0" />
+                {/* [ACTUALIZAR AQUÍ EL NÚMERO DE TELÉFONO] */}
                 <span>+51 999 999 999</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-6 w-6 text-green-500 shrink-0" />
+                {/* [ACTUALIZAR AQUÍ EL CORREO DE CONTACTO] */}
                 <span>contacto@tesolutions.pe</span>
               </li>
             </ul>
